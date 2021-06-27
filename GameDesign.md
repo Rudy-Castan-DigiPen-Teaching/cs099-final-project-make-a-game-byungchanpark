@@ -41,6 +41,6 @@ Player aims at mouse point way. player can shoot the gun by clicking the mouse. 
 
 ### Mock Ups
 
-<img src="Images/flow.jpg" width="40%" height="100%" alt="Byungchang-Park"></img><br/>
+<img src="Image/flow.jpg" width="40%" height="100%" alt="Byungchang-Park"></img><br/>
 
-<img src="Images/flow2.jpg" width="40%" height="100%" alt="Byungchang-Park"></img><br/>
+<img src="Image/flow2.jpg" width="40%" height="100%" alt="Byungchang-Park"></img><br/>
