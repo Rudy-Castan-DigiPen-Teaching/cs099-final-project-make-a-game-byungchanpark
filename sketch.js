@@ -9,7 +9,6 @@ let player1;
 
 let bullet_arr = [];
 let zombie_arr = [];
-let barricade_arr = [];
 
 let movement = 0;
 
