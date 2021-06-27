@@ -1,3 +1,8 @@
+// Name       : ByungChan Park
+// Assignment : final_project(making_a_game)
+// Course     : CS099
+// Spring 2021
+
 let angle
 
 let player1;
@@ -62,6 +67,7 @@ function setup()
 function draw()
 {
     background( 220 );
+    
     if(check_mainMenu)
     {   
         inGameSound.stop();
@@ -228,6 +234,7 @@ function draw()
         inGameSound.stop();
         gameOver();
     }
+    
 }
 
 function mousePressed(){
@@ -284,7 +291,7 @@ function mousePressed(){
 
 function waveStart(){
     
-    for(let i = 0; i < 7 * waveLevel; i++){
+    for(let i = 0; i < 6 * waveLevel; i++){
         const zombie_X_pos = random(zombieSpawnMin,zombieSpawnMax)
         const zombie_Y_pos = random(zombieSpawnMin,zombieSpawnMax)
         const randomZombie = random(randomSpawn)
@@ -294,7 +301,7 @@ function waveStart(){
         
         }
         zombie_arr.push(new zombie(zombie_X_pos, zombie_Y_pos, int(randomZombie)))
-        if(i == 34){
+        if(i == 29){
             zombie_arr.push(new zombie(zombie_X_pos, zombie_Y_pos, int(4)))
             zombie_arr.push(new zombie(zombie_X_pos, zombie_Y_pos, int(4)))
         }
@@ -343,7 +350,10 @@ function winner(){
     image(survived,0,0,width,height)
     textAlign(CENTER)
     textSize(50)
-    text('You survived the night.',400,700)
+    text('You survived the night.',400,200)
+
+    text('Credit', 400,630)
+    text('Music by Eric Matyas\nwww.soundimage.org',400,700)
 }
 
 function Shop(){

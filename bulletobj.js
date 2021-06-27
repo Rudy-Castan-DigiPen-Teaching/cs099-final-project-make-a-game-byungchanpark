@@ -1,3 +1,7 @@
+// Name       : ByungChan Park
+// Assignment : final_project(making_a_game)
+// Course     : CS099
+// Spring 2021
 class bullets{
     constructor(x,y){
         this.bulletImage = loadImage('Image/bullet.png')

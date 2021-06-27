@@ -1,3 +1,7 @@
+// Name       : ByungChan Park
+// Assignment : final_project(making_a_game)
+// Course     : CS099
+// Spring 2021
 class player{
     constructor(position_x,position_y){
         this.x = position_x;

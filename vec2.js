@@ -1,5 +1,5 @@
 // Name       : ByungChan Park
-// Assignment : 31_gravity_particles_array
+// Assignment : final_project(making_a_game)
 // Course     : CS099
 // Spring 2021
 
